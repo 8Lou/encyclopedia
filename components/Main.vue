@@ -1,12 +1,14 @@
-   <template>
-     <div>
-       <h1>Hello, World!</h1>
-     </div>
-   </template>
+<template>
+  <div>
+    <NuxtLogo />
+    <h1>My encyclopedia</h1>
+  </div>
+</template>
 
-   <script>
-   export default {
-     name: 'HelloWorld'
-   }
-   </script>
-   
+<script>
+import NuxtLogo from "./NuxtLogo.vue";
+
+export default {
+  name: "Main",
+};
+</script>
